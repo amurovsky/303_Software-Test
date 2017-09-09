@@ -12,6 +12,14 @@
 		43E4AE911F63309D00114D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E4AE901F63309D00114D14 /* Assets.xcassets */; };
 		43E4AE941F63309D00114D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E4AE921F63309D00114D14 /* LaunchScreen.storyboard */; };
 		43E4AEA51F634AF900114D14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E4AEA41F634AF900114D14 /* Default-568h@2x.png */; };
+		5F875DE21F635C08000FAF53 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875DE11F635C08000FAF53 /* APIClient.swift */; };
+		5F875DE41F635C5B000FAF53 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875DE31F635C5B000FAF53 /* NibLoadableView.swift */; };
+		5F875DE61F635C76000FAF53 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875DE51F635C76000FAF53 /* ReusableView.swift */; };
+		5F875DEA1F635E8D000FAF53 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875DE91F635E8D000FAF53 /* UITableView+Ext.swift */; };
+		5F875DED1F635F2D000FAF53 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875DEB1F635F2D000FAF53 /* ListCell.swift */; };
+		5F875DEE1F635F2D000FAF53 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F875DEC1F635F2D000FAF53 /* ListCell.xib */; };
+		5F875DF01F63610C000FAF53 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875DEF1F63610C000FAF53 /* ListVC.swift */; };
+		5F875DF21F636172000FAF53 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875DF11F636172000FAF53 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		43E4AE931F63309D00114D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E4AE951F63309D00114D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		43E4AEA41F634AF900114D14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		5F875DE11F635C08000FAF53 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = API/APIClient.swift; sourceTree = "<group>"; };
+		5F875DE31F635C5B000FAF53 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibLoadableView.swift; path = Protocols/NibLoadableView.swift; sourceTree = "<group>"; };
+		5F875DE51F635C76000FAF53 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = Protocols/ReusableView.swift; sourceTree = "<group>"; };
+		5F875DE91F635E8D000FAF53 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Ext.swift"; path = "Extensions/UITableView+Ext.swift"; sourceTree = "<group>"; };
+		5F875DEB1F635F2D000FAF53 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = Views/ListCell.swift; sourceTree = "<group>"; };
+		5F875DEC1F635F2D000FAF53 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListCell.xib; path = Views/ListCell.xib; sourceTree = "<group>"; };
+		5F875DEF1F63610C000FAF53 /* ListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListVC.swift; path = Controllers/ListVC.swift; sourceTree = "<group>"; };
+		5F875DF11F636172000FAF53 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = Models/Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,7 @@
 		43E4AE9B1F633FF100114D14 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				5F875DE11F635C08000FAF53 /* APIClient.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -77,6 +94,7 @@
 		43E4AE9C1F633FF900114D14 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5F875DE91F635E8D000FAF53 /* UITableView+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -84,6 +102,8 @@
 		43E4AE9D1F63400900114D14 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				5F875DE31F635C5B000FAF53 /* NibLoadableView.swift */,
+				5F875DE51F635C76000FAF53 /* ReusableView.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -91,6 +111,7 @@
 		43E4AE9E1F63401200114D14 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5F875DF11F636172000FAF53 /* Person.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -98,6 +119,8 @@
 		43E4AE9F1F63401A00114D14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5F875DEB1F635F2D000FAF53 /* ListCell.swift */,
+				5F875DEC1F635F2D000FAF53 /* ListCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -106,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				43E4AE891F63309D00114D14 /* AppDelegate.swift */,
+				5F875DEF1F63610C000FAF53 /* ListVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -184,6 +208,7 @@
 				43E4AEA51F634AF900114D14 /* Default-568h@2x.png in Resources */,
 				43E4AE911F63309D00114D14 /* Assets.xcassets in Resources */,
 				43E4AE8F1F63309D00114D14 /* Main.storyboard in Resources */,
+				5F875DEE1F635F2D000FAF53 /* ListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F875DF01F63610C000FAF53 /* ListVC.swift in Sources */,
+				5F875DE41F635C5B000FAF53 /* NibLoadableView.swift in Sources */,
 				43E4AE8A1F63309D00114D14 /* AppDelegate.swift in Sources */,
+				5F875DEA1F635E8D000FAF53 /* UITableView+Ext.swift in Sources */,
+				5F875DF21F636172000FAF53 /* Person.swift in Sources */,
+				5F875DED1F635F2D000FAF53 /* ListCell.swift in Sources */,
+				5F875DE21F635C08000FAF53 /* APIClient.swift in Sources */,
+				5F875DE61F635C76000FAF53 /* ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5DLQ488SL;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = Test/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amurovsky.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,7 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5DLQ488SL;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = Test/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amurovsky.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
